@@ -32,7 +32,7 @@ npm install
 
 from the root directory of your cloned project to install dependencies (e.g. Express, Mongoose).
 
-There are three files that need to be run in order to seed your local database: one for movies, movies (embedded youtube videos), and genres. You will need to run the following three seed files <b>in order</b> via your terminal. Note that movies and videos will take several minutes, as there are ~2000 entries that process with intermittent pauses.
+There are three files that need to be run in order to seed your local database: one for movies, videos (embedded youtube videos), and genres. You will need to run the following three seed files <b>in order</b> via your terminal. Note that movies and videos will take several minutes, as there are ~2000 entries that process with intermittent pauses.
 
 ```
 node db/seed-movies.js
@@ -100,6 +100,6 @@ The movie GET route using id utilizes a unique id number from the database (~5 d
 
 # Contribution Resources
 
-Source code: https://github.com/ashanevs/flitpick-api
+Source code: https://github.com/ashanevs/flickpick-api
 
 Issue tracker: https://github.com/ashanevs/flickpick-api/issues
